@@ -11,11 +11,11 @@ def languages_homework
 	python = 0
 	ruby = 0
 	CSV.foreach("directory to file/file","r") do |row|
-		if row[6]=ruby
+		if row[6]==ruby
 			ruby=ruby +row[2].to_i		
-		else if row[6]=python
+		else if row[6]==python
 			python=python +row[2].to_i	
-		else if row[6]=perl
+		else if row[6]==perl
 			perl=perl +row[2].to_i
 		end		
 	p ruby
