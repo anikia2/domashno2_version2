@@ -19,7 +19,7 @@ def languages_homework
 			perl=perl +row[2].to_i
 		end		
 	p ruby
-  p python
+        p python
 	p ruby
 			
 def process_file
